@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "link": "",
+    "images": ["/images_projets/Booki/HomePage.png"],
+    "category": "OCR"
+  },
+  {
+    "id": 2,
+    "title": "ohmyfood",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "link": "https://github.com/BaptisteGiroud/Projet4",
+    "images": [
+      "/images_projets/ohmyfood/HomePage.png",
+      "/images_projets/ohmyfood/HomePage2.png",
+      "/images_projets/ohmyfood/RestaurantPageAnimation.png",
+      "/images_projets/ohmyfood/RestaurantPage.png"
+    ],
+    "category": "OCR"
+  },
+  {
+    "id": 3,
+    "title": "Sophie Bluel",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "link": "https://github.com/BaptisteGiroud/Projet6",
+    "images": [
+      "/images_projets/SophieBluel/HomePage.png",
+      "/images_projets/SophieBluel/HomePage2.png",
+      "/images_projets/SophieBluel/HomePage3.png",
+      "/images_projets/SophieBluel/FiltrageHotelsRestaurants.png",
+      "/images_projets/SophieBluel/LoginPage.png",
+      "/images_projets/SophieBluel/ModaleEditMode.png",
+      "/images_projets/SophieBluel/ModaleEditMode2.png"
+    ],
+    "category": "OCR"
+  },
+  {
+    "id": 4,
+    "title": "Kasa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "link": "https://github.com/BaptisteGiroud/Projet-8",
+    "images": [
+      "/images_projets/Kasa/HomePage.png",
+      "/images_projets/Kasa/AppartmentPage.png",
+      "/images_projets/Kasa/AboutPage.png"
+    ],
+    "category": "OCR"
+  },
+  {
+    "id": 5,
+    "title": "Argent Bank",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "link": "https://github.com/BaptisteGiroud/Projet11.3",
+    "images": [
+      "/images_projets/ArgentBank/HomePage.png",
+      "/images_projets/ArgentBank/LoginPage.png",
+      "/images_projets/ArgentBank/ProfilePage.png",
+      "/images_projets/ArgentBank/ProfileEditNamePage.png"
+    ],
+    "category": "OCR"
+  }
+]
