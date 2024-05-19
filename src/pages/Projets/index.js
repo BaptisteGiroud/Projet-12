@@ -67,15 +67,17 @@ function Projets() {
       <ArrowMovedUp />
       <section className="title-section">
         <div className="content-section">
-          <h2>Réalisations durant la formation OpenClassroom</h2>
+          <h2>
+            Projets réalisés lors du cursus d'intégrateur web* chez
+            OpenClassroom
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend
-            risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium
-            tristique fermentum. Vivamus egestas metus nec dui pharetra, at
-            imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus
-            orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam
-            nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc
-            pellentesque ornare felis.
+            *L’intégrateur Web est chargé d’intégrer les éléments visuels dans
+            les pages d’un site web pour créer une interface harmonieuse,
+            lisible et facilement navigable. Il a de solides connaissances des
+            langages de programmation pour pouvoir afficher le plus fidèlement
+            possible le design graphique sur tous types de navigateurs et
+            tailles d’écrans.
           </p>
         </div>
       </section>

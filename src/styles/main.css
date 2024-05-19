@@ -356,7 +356,7 @@ section span {
 
 .skills-tools {
   justify-self: center;
-  margin-top: 3vw;
+  margin-top: 5vw;
   width: calc(200px + 45vw);
 }
 
@@ -660,6 +660,14 @@ button {
     font-size: 5vw;
     margin-left: 19.5vw;
   }
+  .background-lines {
+    transform: scale(2.5);
+    top: calc(50% - -27vw);
+    right: calc(50% - -19vw);
+  }
+  .container-arrow {
+    bottom: calc(25% - 10vw);
+  }
   .tag-title-contact {
     font-size: calc(10px + 5vw);
   }
@@ -672,12 +680,19 @@ button {
   .icon-gallerie {
     display: none;
   }
+  .adjust-inspiration {
+    height: 40vh;
+  }
+  .adjust-skills,
+  .adjust-about {
+    height: 70vh;
+  }
   .content-section h2 {
     font-size: calc(10px + 3.5vw);
     margin-bottom: 5vh;
   }
   .content-section p {
-    font-size: calc(5px + 4vw);
+    font-size: calc(5px + 3.5vw);
   }
   .content-projet h3 {
     font-size: calc(10px + 5vw);
