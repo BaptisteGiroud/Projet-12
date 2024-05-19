@@ -1,5 +1,8 @@
+import { useSelector } from "react-redux";
+
 function Footer() {
-  return (
+  const formType = useSelector((state) => state.menu.formType);
+  return formType === "standard" ? (
     <footer>
       <a
         href="https://www.linkedin.com/in/giroud-baptiste/"
@@ -16,6 +19,8 @@ function Footer() {
         Mon CV
       </a>
     </footer>
+  ) : (
+    ""
   );
 }
 

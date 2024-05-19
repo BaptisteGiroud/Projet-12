@@ -3,6 +3,7 @@ import iconWIP from "../../assets/iconWIP.svg";
 import Projet from "../../components/Projet";
 import projetData from "../../data/projets.json";
 import useScroll from "../../help";
+import ArrowMovedUp from "../../components/ArrowMovedUp";
 
 function Projets() {
   const projetsOCR = projetData
@@ -63,6 +64,7 @@ function Projets() {
           />
         </div>
       </div>
+      <ArrowMovedUp />
       <section className="title-section">
         <div className="content-section">
           <h2>Réalisations durant la formation OpenClassroom</h2>
