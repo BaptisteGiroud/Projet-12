@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import "./styles/main.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -21,22 +26,33 @@ const store = configureStore({
   devTools: true,
 });
 
+function App() {
+  const location = useLocation();
+  const isGalleryPage = location.pathname === "/galerie";
+
+  return (
+    <>
+      {!isGalleryPage && <Header />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/info" element={<Info />} />
+        <Route path="/projets" element={<Projets />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/galerie" element={<Gallery />} />
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
+      {!isGalleryPage && <Footer />}
+      <IconGallery />
+    </>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <React.StrictMode>
       <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/info" element={<Info />} />
-          <Route path="/projets" element={<Projets />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/gallerie" element={<Gallery />} />
-          <Route path="/menu" element={<Menu />} />
-        </Routes>
-        <IconGallery />
-        <Footer />
+        <App />
       </Router>
     </React.StrictMode>
   </Provider>

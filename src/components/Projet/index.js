@@ -9,9 +9,11 @@ function Projet({ title, description, link, images }) {
             <h3>{title}</h3>
             <p>{description}</p>
           </div>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            vers le repo Github
-          </a>
+          {link && (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              vers le repo Github
+            </a>
+          )}
         </div>
         <Carousel images={images} title={title} />
         <span></span>
