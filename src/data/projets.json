@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Booki",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "description": "Dans ce projet, j'ai développé la page d'accueil d'une agence de voyage en utilisant uniquement HTML et CSS. Le principal objectif était de créer une interface responsive, en suivant des maquettes Figma fournies pour mobile, tablette et desktop. J'ai intégré les images et respecté les spécificités du projet décrites dans une note de synthèse.",
     "link": "",
     "images": ["/images_projets/Booki/HomePage.png"],
     "category": "OCR",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "ohmyfood",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "description": "Sur ce projet, j'ai travaillé sur l'interface mobile-first du site web d'une start-up. Utilisant Sass et implémentant des animations CSS, j'ai intégré une maquette fournie en versions mobile et desktop, en suivant un prototype sur Figma. Enrichir l'expérience utilisateur avec des animations CSS a rendu la navigation plus interactive et engageante. De plus, j'ai utilisé Git et GitHub pour versionner le projet, me familiarisant ainsi avec des outils essentiels pour la gestion et la collaboration en développement web.",
     "link": "https://github.com/BaptisteGiroud/Projet4",
     "images": [
       "/images_projets/ohmyfood/HomePage.png",
@@ -25,7 +25,7 @@
   {
     "id": 3,
     "title": "Sophie Bluel",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "description": "L'objectif ici été de développer une page web dynamique en utilisant JavaScript et en interagissant avec une API. J'ai travaillé sur la partie Front-End, gérant les événements utilisateurs et manipulant le DOM à partir du HTML fourni. Le projet comprenait également la création d'une page de connexion pour l'administrateur et une modale pour l'upload de nouveaux médias, développés from scratch.",
     "link": "https://github.com/BaptisteGiroud/Projet6",
     "images": [
       "/images_projets/SophieBluel/HomePage.png",
@@ -42,7 +42,7 @@
   {
     "id": 4,
     "title": "Kasa",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "description": "Le projet été une initiation de React sur lequel je devais implémenter le front-end d'une application pour créer une expérience utilisateur moderne et réactive. J'ai implémenté la logique de présentation des données et des composants React. J'ai configuré la navigation entre les différentes pages de l'application avec React Router. Le projet se concentrait exclusivement sur le développement front-end, en se basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.",
     "link": "https://github.com/BaptisteGiroud/Projet-8",
     "images": [
       "/images_projets/Kasa/HomePage.png",
@@ -55,7 +55,7 @@
   {
     "id": 5,
     "title": "Argent Bank",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend risus neque, vitae vestibulum tellus cursus vitae. Phasellus pretium tristique fermentum. Vivamus egestas metus nec dui pharetra, at imperdiet est auctor. Donec suscipit mi ac tempor luctus. Cras metus orci, hendrerit a pharetra aliquet, egestas sit amet neque. Nullam nisl ante, congue quis vulputate aliquet, accumsan a eros. Nunc pellentesque ornare felis.",
+    "description": "En utilisant React et Redux j'ai implémenté le front-end d'une application. Mon objectif principal était de connecter le front-end au back-end via des appels API, garantissant une communication fluide entre le client et le serveur. J'ai créé une interface utilisateur complète et responsive avec React, tandis que Redux a été utilisé pour gérer les données de manière cohérente à travers l'application. J'ai également utilisé Swagger pour définir les points d'accès de l'API et Node.js pour exécuter le code JavaScript côté serveur, offrant ainsi une expérience pratique de développement full-stack.",
     "link": "https://github.com/BaptisteGiroud/Projet11.3",
     "images": [
       "/images_projets/ArgentBank/HomePage.png",
