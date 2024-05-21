@@ -1,8 +1,33 @@
 import ScrollingArrow from "../../assets/scrolling.svg";
 import useScroll from "../../help";
+import React, { useState } from "react";
 
 function Contact() {
   useScroll();
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    const result = await response.json();
+    if (result.success) {
+      setStatus("Message envoyé avec succès!");
+    } else {
+      setStatus("Échec de l'envoi du message.");
+    }
+  };
 
   return (
     <div>
@@ -31,25 +56,36 @@ function Contact() {
       <section>
         <div className="content-section">
           <h2>Je vous réponderais au plus vite.</h2>
-          <form>
-            <label htmlfor="name"></label>
-            <input type="text" name="name" id="name" placeholder="Votre nom" />
-            <label htmlfor="email"></label>
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="name"></label>
+            <input
+              type="text"
+              name="name"
+              value={name}
+              placeholder="Votre nom"
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+            <label htmlFor="email"></label>
             <input
               type="email"
               name="email"
-              id="email"
+              value={email}
               placeholder="Votre email"
+              onChange={(e) => setEmail(e.target.value)}
+              required
             />
-            <label htmlfor="message"></label>
+            <label htmlFor="message"></label>
             <textarea
-              type="message"
               name="message"
-              id="message"
+              value={message}
               placeholder="Votre message"
-            />
+              onChange={(e) => setMessage(e.target.value)}
+              required
+            ></textarea>
             <button type="submit">Envoyer</button>
           </form>
+          {status && <p>{status}</p>}
         </div>
       </section>
     </div>
