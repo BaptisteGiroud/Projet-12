@@ -11,11 +11,7 @@ function Footer() {
       >
         LinkedIn
       </a>
-      <a
-        href="https://www.linkedin.com/in/giroud-baptiste/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/bgrd_cv.pdf" target="_blank" rel="noopener noreferrer">
         Mon CV
       </a>
     </footer>

@@ -59,8 +59,10 @@ function Nav() {
 
   return checkFormType === "standard" ? (
     <header className="menu-standard">
-      <Link to="/">
-        <h2 className="bgrd">{headerText}</h2>
+      <Link to="/" itemScope itemProp="http://schema.org/Person">
+        <h2 className="bgrd" itemProp="name">
+          {headerText}
+        </h2>
       </Link>
       <nav className="menu">
         <Link
@@ -106,7 +108,10 @@ function Nav() {
           <img src={iconMenu} alt="Icon accès menu" onClick={handleClick} />
         </Link>
       ) : (
-        <Link to={previousPage} onClick={handleReturnToPreviousPage}>
+        <Link
+          to={previousPage === "/menu" ? "/" : previousPage}
+          onClick={handleReturnToPreviousPage}
+        >
           <img src={closeMenu} alt="Icon fermer menu" />
         </Link>
       )}

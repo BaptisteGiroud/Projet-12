@@ -1,10 +1,12 @@
 import ArrowProjet from "../../assets/Arrow_Projet.svg";
 
-function ProjetGallery({ title, category, link, onTitleClick }) {
+function ProjetGallery({ title, category, link, onTitleClick, isActive }) {
   return (
     <div className="gallery-projet">
       <div>
-        <h3 onClick={onTitleClick}>{title}</h3>
+        <h3 className={isActive ? "active-projet" : ""} onClick={onTitleClick}>
+          {title}
+        </h3>
         <p>{category}</p>
       </div>
       {link && (

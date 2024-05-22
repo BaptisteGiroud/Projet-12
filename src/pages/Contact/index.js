@@ -24,6 +24,9 @@ function Contact() {
     const result = await response.json();
     if (result.success) {
       setStatus("Message envoyé avec succès!");
+      setName("");
+      setEmail("");
+      setMessage("");
     } else {
       setStatus("Échec de l'envoi du message.");
     }

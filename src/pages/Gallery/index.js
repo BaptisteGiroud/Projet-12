@@ -49,6 +49,7 @@ function Gallery() {
       category={projet.category === "OCR" ? "OpenClassroom" : projet.category}
       link={projet.link}
       onTitleClick={() => handleProjectClick(projet)}
+      isActive={selectedProject === projet}
     />
   ));
 

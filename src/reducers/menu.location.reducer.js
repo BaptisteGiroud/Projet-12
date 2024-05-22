@@ -36,8 +36,12 @@ export default function pageReducer(state = initialState, action) {
           pageName = "Contact";
           break;
         case "/menu":
-          pagePath = "/";
+          pagePath = "/menu";
           pageName = "Menu";
+          break;
+        case "/galerie":
+          pagePath = "/galerie";
+          pageName = "Galerie";
           break;
         default:
           pageName = "";
