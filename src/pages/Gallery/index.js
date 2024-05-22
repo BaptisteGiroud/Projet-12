@@ -46,7 +46,7 @@ function Gallery() {
     <ProjetGallery
       key={projet.id}
       title={projet.title}
-      category={projet.category === "OCR" ? "OpenClassroom" : projet.category}
+      category={projet.category === "OCR" ? "OpenClassrooms" : projet.category}
       link={projet.link}
       onTitleClick={() => handleProjectClick(projet)}
       isActive={selectedProject === projet}

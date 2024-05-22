@@ -854,7 +854,8 @@ button {
     width: 7vw;
   }
   footer {
-    right: 33%;
+    gap: 5vw;
+    right: 22%;
     top: 85vh;
     transform: none;
     font-size: 4.5vw;

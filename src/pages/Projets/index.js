@@ -69,7 +69,7 @@ function Projets() {
         <div className="content-section">
           <h2>
             Projets réalisés lors du cursus d'intégrateur web* chez
-            OpenClassroom
+            OpenClassrooms
           </h2>
           <p>
             *L’intégrateur Web est chargé d’intégrer les éléments visuels dans
@@ -87,10 +87,8 @@ function Projets() {
           <div className="content-section">
             <h2>Projets Professionnels</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              eleifend risus neque, vitae vestibulum tellus cursus vitae.
-              Phasellus pretium tristique fermentum. Vivamus egestas metus nec
-              dui pharetra, at imperdiet est auctor.
+              Vous trouverez ci-dessous les réalisations dans le cadre
+              professionnelles.
             </p>
           </div>
         </section>
@@ -100,12 +98,7 @@ function Projets() {
         <section className="title-section">
           <div className="content-section">
             <h2>Projets Personnels</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              eleifend risus neque, vitae vestibulum tellus cursus vitae.
-              Phasellus pretium tristique fermentum. Vivamus egestas metus nec
-              dui pharetra, at imperdiet est auctor.
-            </p>
+            <p>Vous trouverez ci-dessous des réalisations personnelles.</p>
           </div>
         </section>
       )}

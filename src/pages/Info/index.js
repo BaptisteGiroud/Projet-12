@@ -48,7 +48,7 @@ function Info() {
             m'a offert la possibilité d'affiner mes compétences en graphisme,
             illustration et conception visuelle, m'enrichissant tant sur le plan
             technique qu'artistique. <br /> <br /> Par la suite, j'ai suivi une
-            formation d'intégrateur web chez OpenClassroom, où j'ai acquis des
+            formation d'intégrateur web chez OpenClassrooms, où j'ai acquis des
             compétences solides en développement web, me permettant de combiner
             ma sensibilité artistique avec des technologies modernes pour créer
             des expériences utilisateur complètes et innovantes.

@@ -11,7 +11,14 @@ function Footer() {
       >
         LinkedIn
       </a>
-      <a href="/bgrd_cv.pdf" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://github.com/BaptisteGiroud"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+      <a href="/BaptisteGiroud.pdf" target="_blank" rel="noopener noreferrer">
         Mon CV
       </a>
     </footer>

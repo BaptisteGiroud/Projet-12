@@ -109,7 +109,7 @@ function Nav() {
         </Link>
       ) : (
         <Link
-          to={previousPage === "/menu" ? "/" : previousPage}
+          to={previousPage === "/menu" || "" ? "/" : previousPage}
           onClick={handleReturnToPreviousPage}
         >
           <img src={closeMenu} alt="Icon fermer menu" />

@@ -1,8 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "start_url": ".",
+  "short_name": "BGRD",
+  "name": "Portfolio - Baptiste Giroud",
+  "icons": {
+    "src": "/iconbgrd.svg",
+    "sizes": "64x64",
+    "type": "image/svg+xml"
+  },
+  "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#18d9d9",
+  "background_color": "#011826"
 }
