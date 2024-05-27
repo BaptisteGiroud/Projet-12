@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Booki",
-    "description": "Dans ce projet, j'ai développé la page d'accueil d'une agence de voyage en utilisant uniquement HTML et CSS. Le principal objectif était de créer une interface responsive, en suivant des maquettes Figma fournies pour mobile, tablette et desktop. J'ai intégré les images et respecté les spécificités du projet décrites dans une note de synthèse.",
+    "description": "Dans ce projet, j'ai développé la page d'accueil d'une agence de voyage fictive en utilisant uniquement HTML et CSS. Le principal objectif était de créer une interface responsive, en suivant des maquettes Figma fournies pour mobile, tablette et desktop. J'ai intégré les images et respecté les spécificités du projet décrites dans une note de synthèse.",
     "link": "",
     "images": ["/images_projets/Booki/HomePage.png"],
     "category": "OCR",

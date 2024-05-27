@@ -72,11 +72,13 @@ function Projets() {
             OpenClassrooms
           </h2>
           <p>
-            *L’intégrateur Web est chargé d’intégrer les éléments visuels dans
-            les pages d’un site web pour créer une interface harmonieuse,
-            lisible et facilement navigable. Il a de solides connaissances des
-            langages de programmation pour pouvoir afficher le plus fidèlement
-            possible le design graphique sur tous types de navigateurs et
+            *<strong>L’intégrateur Web</strong> est chargé d’intégrer les{" "}
+            <strong>éléments visuels</strong> dans les pages d’un site web pour
+            créer une interface harmonieuse, lisible et facilement navigable. Il
+            a de solides{" "}
+            <strong>connaissances des langages de programmation</strong> pour
+            pouvoir afficher le plus fidèlement possible le{" "}
+            <strong>design graphique</strong> sur tous types de navigateurs et
             tailles d’écrans.
           </p>
         </div>

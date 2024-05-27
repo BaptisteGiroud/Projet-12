@@ -58,7 +58,7 @@ function Contact() {
       </div>
       <section>
         <div className="content-section">
-          <h2>Je vous réponderais au plus vite.</h2>
+          <h2>Je vous réponderai au plus vite.</h2>
           <form onSubmit={handleSubmit}>
             <label htmlFor="name"></label>
             <input
