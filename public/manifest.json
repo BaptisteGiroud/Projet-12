@@ -1,11 +1,13 @@
 {
   "short_name": "BGRD",
   "name": "Portfolio - Baptiste Giroud",
-  "icons": {
-    "src": "/iconbgrd.svg",
-    "sizes": "64x64",
-    "type": "image/svg+xml"
-  },
+  "icons": [
+    {
+      "src": "/iconbgrd.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ],
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#18d9d9",
